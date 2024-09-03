@@ -9,6 +9,7 @@
     mode: '0644'
     owner: root
     group: root
+    no_extra_spaces: true
   when: ansible_distribution == 'Ubuntu'
   become: true
   become_user: root
