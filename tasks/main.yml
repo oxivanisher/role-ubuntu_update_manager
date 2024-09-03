@@ -1,0 +1,11 @@
+---
+# tasks file for ubuntu_update_manager
+- name: Ensure Ubuntu Update Manager setting
+  community.general.ini_file:
+    path: /etc/update-manager/release-upgrades
+    section: DEFAULT
+    option: Prompt
+    value: "{{ ubuntu_update_manager_release }}"
+    mode: '0644'
+    owner: root
+    group: root
