@@ -1,5 +1,6 @@
 ubuntu_update_manager
 =====================
+[![Ansible Lint](https://github.com/oxivanisher/role-ubuntu_update_manager/actions/workflows/ansible-lint.yml/badge.svg)](https://github.com/oxivanisher/role-ubuntu_update_manager/actions/workflows/ansible-lint.yml)
 
 This role configures the Ubuntu Update Manager. Currently it configures only which updates are shown.
 
