@@ -6,10 +6,10 @@
     section: DEFAULT
     option: Prompt
     value: "{{ ubuntu_update_manager_release }}"
-    mode: '0644'
+    mode: "0644"
     owner: root
     group: root
     no_extra_spaces: true
-  when: ansible_distribution == 'Ubuntu'
+  when: ansible_facts.distribution == 'Ubuntu'
   become: true
   become_user: root
