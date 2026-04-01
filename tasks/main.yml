@@ -12,4 +12,3 @@
     no_extra_spaces: true
   when: ansible_facts.distribution == 'Ubuntu'
   become: true
-  become_user: root
